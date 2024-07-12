@@ -24,7 +24,7 @@ function getUserData(event) {
 function handleSubmit(event) {
   event.preventDefault();
   if (
-    event.currentTarget.elements.email.value.trim() ||
+    event.currentTarget.elements.email.value.trim() &&
     event.currentTarget.elements.message.value.trim()
   ) {
     console.log({
