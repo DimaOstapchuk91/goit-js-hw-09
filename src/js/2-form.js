@@ -29,7 +29,7 @@ function handleSubmit(event) {
   ) {
     console.log({
       email: event.currentTarget.elements.email.value.trim(),
-      password: event.currentTarget.elements.message.value.trim(),
+      message: event.currentTarget.elements.message.value.trim(),
     });
     event.currentTarget.reset();
     localStorage.removeItem(FEEDBACK_KEY);
